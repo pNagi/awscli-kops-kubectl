@@ -4,6 +4,7 @@ ENV KOPS_VERSION=1.7.0
 ENV KUBECTL_VERSION=v1.7.4
 
 RUN apk add --update \
+    ca-certificates \
     groff \
     less \
     python \
